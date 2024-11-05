@@ -1,0 +1,20 @@
+package String;
+
+public class Anagram {
+	
+	public static void main(String[] args) {
+		 
+		String a="fazil";
+		String b="lafzi";
+		
+		boolean value=true;
+		
+		int[] c=new int[26];
+		
+		for(char x : a.toCharArray()) {
+		c[x-'a']++;	
+		}
+		
+	}
+
+}

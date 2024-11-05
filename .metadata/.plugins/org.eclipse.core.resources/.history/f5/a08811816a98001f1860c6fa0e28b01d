@@ -1,0 +1,49 @@
+package Arrays;
+
+public class NextPermutation {
+
+    public static void main(String[] args) {
+
+        int[] a = { 3, 2, 1 };
+
+        int n = a.length;
+
+        int i = n - 2;
+
+        // Step 1: Find the rightmost ascent
+        while (i >= 0 && a[i] >= a[i + 1]) {
+            i--;
+        }
+        
+        // Step 2: If there is an ascent, find the element to swap
+        if (i >= 0) {
+            int j = n - 1;
+
+            while (a[j] <= a[i]) {
+                j--;
+            }
+            // Swap elements
+            int temp = a[i];
+            a[i] = a[j];
+            a[j] = temp;
+        }
+
+        // Step 3: Sort the elements after index i in ascending order
+        for (int j = i + 1; j < n - 1; j++) {
+            for (int k = j + 1; k < n; k++) {
+                if (a[j] > a[k]) {
+                    int temp = a[j];
+                    a[j] = a[k];
+                    a[k] = temp;
+                }
+            }
+        }
+
+        // Output the next permutation
+        System.out.print("Next permutation: ");
+        for (int num : a) {
+            System.out.print(num + " ");
+        }
+        System.out.println(); // Print a newline at the end
+    }
+}

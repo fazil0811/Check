@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="a"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="mat"/>
+			<item value="SimpleSingleTon"/>
+			<item value="total"/>
+			<item value="max"/>
+			<item value="ms"/>
+			<item value="mf"/>
+			<item value="nums"/>
+			<item value="isGood"/>
+			<item value="Car1"/>
+			<item value="p1"/>
+			<item value="Exception"/>
+			<item value="AadharNo"/>
+			<item value="AadharCard"/>
+			<item value="itr"/>
+			<item value="a2"/>
+		</list>
+		<list key="replacehistory">
+			<item value="a"/>
+			<item value="SingleTon"/>
+			<item value="sum"/>
+			<item value="maxi"/>
+			<item value="mas"/>
+			<item value="maf"/>
+			<item value="x"/>
+			<item value="isAffordable"/>
+			<item value="Car"/>
+			<item value="p5"/>
+			<item value="p4"/>
+			<item value="p3"/>
+			<item value="p2"/>
+			<item value="Takes"/>
+			<item value="min"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1049"/>
+		<item key="DIALOG_Y_ORIGIN" value="205"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="646"/>
+		<item key="DIALOG_Y_ORIGIN" value="349"/>
+	</section>
+</section>

@@ -1,0 +1,10 @@
+package String;
+
+public class RemoveParanthesis {
+	
+	public static void main(String[] args) {
+		
+		String a="(()())(())";
+	}
+
+}
